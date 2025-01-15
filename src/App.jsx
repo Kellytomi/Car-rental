@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
 import Pricing from './Pricing'
+import carImage from './assets/car.jpg' 
 
 const Home = () => {
   return (
@@ -21,7 +22,7 @@ const Home = () => {
       <div className="mt-12 md:mt-16 w-full max-w-6xl mx-auto relative">
         <div className="aspect-video relative overflow-hidden rounded-lg">
           <img
-            src="./src/assets/car.jpg"
+            src={carImage}
             alt="Luxury Sports Car"
             className="w-full h-full object-cover"
           />
