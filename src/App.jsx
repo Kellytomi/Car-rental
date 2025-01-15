@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
 import Pricing from './Pricing'
-import carImage from './assets/car.jpg' 
+import carImage from './assets/car.jpg'
 
 const Home = () => {
   return (
